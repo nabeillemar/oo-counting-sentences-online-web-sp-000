@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-  self.split(/[.?!]/)
-  self.delete_if{|e| e.length == 0}
-  self.count
+  self.split(/[.?!]/) = element
+  element.delete_if{|e| e.length == 0}
+  element.count
   end
 end
